@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCaretDown } from "react-icons/fa";
-import "./select.css";
+import "./select.scss";
 
 const Select = ({ name, children, ...props }) => {
   return (

@@ -18,11 +18,12 @@
 a {
   text-decoration: none;
   color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
 }
 
-a:hover {
-  color: inherit;
-}
 .selected {
   border: 1px solid black;
 }
